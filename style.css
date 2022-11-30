@@ -1,0 +1,44 @@
+.card{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+#search {
+    height: 40px;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border: 1px solid grey;
+    padding: 0 290px;
+}
+
+@media screen and(max-width: 400px) {
+ #search {
+    padding: 0 10px;
+    background-color: aqua;
+    height: 100px;
+ }   
+}
+.searchicon {
+    height: 28px;
+    border-bottom-right-radius: 25px;
+   border-top-right-radius: 25px;
+    border: 1px solid grey;
+    padding: 6px;
+}
+.searchbar {
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.carddata {
+   border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    flex-direction: column;
+    margin-top: 40px;
+    width: 100%;
+}
