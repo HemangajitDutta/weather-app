@@ -16,9 +16,20 @@
 
 @media screen and (min-width: 300px) {
   #search {
-    padding: 0 30px;
+    padding: 0 50px;
   }
 }
+
+@media screen and (min-width: 700px) {
+    #search {
+      padding: 0 250px;
+    }
+  }
+  @media screen and (min-width: 800px) {
+    #search {
+      padding: 0 500px;
+    }
+  }
 
 .searchicon {
     height: 28px;
